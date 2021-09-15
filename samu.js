@@ -1,10 +1,10 @@
-//============ NyanBot ============\\
+//============ PeneBot ============\\
 // + Favor de mantener este codigo
 //   tal y como esta.
 // + Si modificaras, manten los
 //   creditos:
-//   _MankBarBar & Samu & LolHuman_
-//============ Samu330 ============\\
+//   _KARLITA & KRAKEN & Gringo_
+//============ KARLITA ============\\
 const { 
   WAConnection,
   MessageType,
@@ -46,7 +46,7 @@ const FormData = require('form-data')
 const samuGg = require('google-it');
 const samuGgImg = require('g-i-s');
 const hx = require('hxz-api');
-////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+////////////▶ EL SADISMO | ZOOFILIA Y GORE
 const { validmove, setGame } = require("./lib/tictactoe");
 const simple = require('./lib/simple.js');
 const {y2mateA, y2mateV} = require('./lib/y2mate.js')
@@ -90,20 +90,20 @@ const welkom = JSON.parse(fs.readFileSync('./src/welkom.json'))
 const config = JSON.parse(fs.readFileSync("./config.json"))
 const owner = config.owner
 const mods = config.mods
-const fake = 'Sm330'
+const fake = 'Sms666'
 var public = config.public
-////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+////////////▶ SADISMO | 
 conn.connect()
 const samu330 = conn.samu330
-////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+////////////▶ 𝐒ADISMO |
 const sleep = async (ms) => {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
-////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
-api = 'CONTACTAME PARA OBTENER LA API'
-fak = 'samu3300'
+////////////▶ EL SADISMO | NECROFILIA
+api = 'CONTACTAME PARA OBTENER MI PENE'
+fak = 'MELODY'
 prefix = '.'
-apikey = 'LindowApi'
+apikey = 'LindaPinga'
 hit_today = []
 blocked = []
 let _level = JSON.parse(fs.readFileSync('./src/level.json'))
@@ -115,7 +115,7 @@ const O = "⭕️"
 
 ///////////////////////////////////////////////////////////////////////////
 
-//========= Funcion de Registro =========\\
+//========= Funcion de mi culo =========\\
 
 const getRegisteredRandomId = () => {
         return _registered[Math.floor(Math.random() * _registered.length)].id
@@ -143,7 +143,7 @@ samu330.on('CB:action,,call', async json => {
 const callerId = json[2][0][1].from;
 console.log("Llamada recibida de "+ callerId)
 console.log(chalk.greenBright("├"), chalk.keyword("magenta")("[ 📵Llamada recibida ]"), chalk.greenBright(callerId))
-samu330.sendMessage(callerId, "Las llamadas no se permiten, *PORFAVOR LEE LAS REGLAS!* Te bloqueare😒", MessageType.text, {quoted: {key: {
+samu330.sendMessage(callerId, "Las llamadas no se permiten, *LEE LAS REGLAS MIERDA!* Te granPUTEARE😒", MessageType.text, {quoted: {key: {
 fromMe: false,
 participant: `0@s.whatsapp.net`
 },
@@ -154,12 +154,12 @@ message: {
 "mimetype": "image/jpeg",
 "jpegThumbnail": fs.readFileSync(`./media/call.png`)
 },
-"title": `🚫No se permiten las llamadas🚫`,
+"title": `🚫No se permiten las llamadas Basura🚫`,
 "description": "",
 "currencyCode": "SYP",
-"priceAmount1000": "999999999999999999",
+"priceAmount1000": "666666666666",
 "retailerId": "",
-"productImageCount": 999
+"productImageCount": 666
 },
 "businessOwnerJid": `0@s.whatsapp.net`
 }
@@ -167,7 +167,7 @@ message: {
 await sleep(4000)
 await samu330.blockUser(callerId, "add")
 })
-////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+////////////▶ 
 samu330.on('CB:action,,battery', json => {
 global.batteryLevelStr = json[2][0][1].value
 global.batterylevel = parseInt(batteryLevelStr)
@@ -176,7 +176,7 @@ if (json[2][0][1].live == 'true') charging = true
 if (json[2][0][1].live == 'false') charging = false
 console.log(chalk.greenBright("├"), chalk.keyword("magenta")("[ 🔋Nivel de carga de la bateria ]"), chalk.greenBright(batterylevel+'%'), chalk.keyword("cyan")("Esta cargando?"), chalk.keyword("yellow")(charging))	
 })
-////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+////////////▶ 
 samu330.on('blocklist-update', async (chat) => {
 for (i of chat.added){
 target = i.replace('@c.us', '@s.whatsapp.net')
@@ -189,18 +189,18 @@ blocked.splice(blocked.indexOf(target), 1)
 console.log(chalk.greenBright("├"), chalk.keyword("green")("[ NUEVO USUARIO DESBLOQUEADO ]"), chalk.keyword("cyan")(target))
 }
 })
-////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+////////////▶  | 
 samu330.on('group-update', async(chat) => {
 var donde = chat.jid
 var group = await samu330.groupMetadata(donde)
 if (!chat.desc == '') {
 var tag = chat.descOwner.split('@')[0] + '@s.whatsapp.net'
-var mensajeDesc = `✍🏻 *La descripcion del grupo ${group.subject} fue modificada por: @${chat.descOwner.split('@')[0]}*\n✅Ahora la nueva descripcion es:\n\n${chat.desc}`
+var mensajeDesc = `✍🏻 *La descripcion del puto grupo ${group.subject} fue modificada por: @${chat.descOwner.split('@')[0]}*\n✅Ahora la cochinaa descripcion es:\n\n${chat.desc}`
 samu330.sendMessage(group.id, mensajeDesc, MessageType.text)
 console.log(chalk.greenBright("├"), chalk.keyword("yellow")("[ DESCRIPCION CAMBIADA ]"), chalk.keyword("cyan")('grupo'), chalk.keyword("green")(`${group.subject}`))
 }
 })
-////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+////////////▶ 
 samu330.on('group-participants-update', async (anu) => {
 if (!welkom.includes(anu.jid)) return
 try {
@@ -255,21 +255,21 @@ message: {
 "title": `Bienvenido a ${mdata.subject}`,
 "description": "",                
 "currencyCode": "SYP",                  
-"priceAmount1000": "999999999999999999",
+"priceAmount1000": "6666666666666666",
 "retailerId": "",
-"productImageCount": 999
+"productImageCount": 666
 },                          
 "businessOwnerJid": `0@s.whatsapp.net`
-}}}, caption: `😙Hola, @${num.split('@')[0]}, _*Bienvenido a ${mdata.subject}, esperamos que te la pases a gusto en este grupo✨*_\n\n_Recuerda siempre seguir las reglas y mantener una formalidad respetuosa_😉\n\nSon las *${jm}* del *${calender}*\n\n${mdata.desc}`, contextInfo: { mentionedJid: [num] }})
+}}}, caption: `😙Hola, @${num.split('@')[0]}, _*Bienvenido a ${mdata.subject}, esperamos que te la pases cagado en este grupo✨*_\n\n_Recuerda siempre seguir las reglas y mantener el grupo lleno de porno_😉\n\nSon las *${jm}* del *${calender}*\n\n${mdata.desc}`, contextInfo: { mentionedJid: [num] }})
 } catch {
-samu330.sendMessage(mdata.id, `😙Hola, @${num.split('@')[0]}, _*Bienvenido a ${mdata.subject}, esperamos que te la pases a gusto en este grupo✨*_\n\n_Recuerda siempre seguir las reglas y mantener una formalidad respetuosa_😉\n\nSon las *${jm}* del *${calender}*\n\n${mdata.desc}`, MessageType.text)
+samu330.sendMessage(mdata.id, `😙Hola, @${num.split('@')[0]}, _*Bienvenido a ${mdata.subject}, esperamos que te la pases kagado en este grupo✨*_\n\n_Recuerda siempre seguir el porno zukulento_😉\n\nSon las *${jm}* del *${calender}*\n\n${mdata.desc}`, MessageType.text)
 }
 //leave
 }  else if (anu.action == 'remove') {
 num = anu.participants[0]
-teks = `_Weno ps.... amm😪...  @${num.split('@')[0]} se nos fue, ni llorar es bueno:)_
-_*Ojala y le baya bien, y mas despues..... que lo atropelle un tren!!🚉🤣*_
-*No se awiten gente, esten seguros que nadie lo extrañara:D*`
+teks = `_Weno ps.... un CHUPA PINGA😪...  @${num.split('@')[0]} se nos fue, k su viejita lo koja:)_
+_*Ojala y le baya mal, y mas despues..... que lo kache un negro!!🚉🤣*_
+*No se caguen people, esten seguros que nadie lo cojera:D*`
 samu330.sendMessage(mdata.id, teks, MessageType.text,{ contextInfo: {"mentionedJid": [num]}})
 
 } else if (anu.action == 'promote') {
@@ -280,7 +280,7 @@ ppimg = await samu330.getProfilePicture(`${num.split('@')[0]}@c.us`)
 ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 }
 thu = await samu330.getStatus(anu.participants[0], MessageType.text)
-teks = `*✅NUEVO ADMIN✅*\n*🙋🏻‍♂️ Nombre*: @${num.split('@')[0]}\n*📋 INFO*: ${thu.status}\n\n🥳 *FEILICIDADES!!*, te as convertido en administrador del grupo ${mdata.subject}`
+teks = `*✅NUEVO ADMIN✅*\n*🙋🏻‍♂️ Nombre*: @${num.split('@')[0]}\n*📋 INFO*: ${thu.status}\n\n🥳 *FEILICIDADES PUTO!!*, te as convertido en administrador del grupo ${mdata.subject}`
 let buff = await getBuffer(ppimg)
 samu330.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 } else if (anu.action == 'demote') {
@@ -291,7 +291,7 @@ ppimg = await samu330.getProfilePicture(`${num.split('@')[0]}@c.us`)
 ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 }
 thu = await samu330.getStatus(anu.participants[0], MessageType.text)
-teks = `*❌UN ADMIN MENOS❌*\n*🙋🏻‍♂️ Nombre*: @${num.split('@')[0]}\n*📋 INFO*: ${thu.status}\n\n*😪Nimodos, ya no eres admnistrador del grupo* ${mdata.subject}`
+teks = `*❌UN ADMIN MENOS❌*\n*🙋🏻‍♂️ Nombre*: @${num.split('@')[0]}\n*📋 INFO*: ${thu.status}\n\n*😪Nimodos, ya no eres gay del grupo* ${mdata.subject}`
 let buff = await getBuffer(ppimg)
 samu330.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 }
@@ -299,7 +299,7 @@ samu330.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextIn
 console.log('Error : %s', color(e, 'red'))
 }
 })
-////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+////////////▶ 
 samu330.on('chat-update', async(sam) => {
     try {
         if (!sam.hasNewMessage) return
@@ -323,7 +323,7 @@ samu330.on('chat-update', async(sam) => {
        //budy = (type === 'conversation') ? sam.message.conversation : (type === 'extendedTextMessage') ? sam.message.extendedTextMessage.text : (type === 'listResponseMessage') ? sam.message.listResponseMessage.title : ''
 	   var _0x56fb=["\x6C\x69\x73\x74\x52\x65\x73\x70\x6F\x6E\x73\x65\x4D\x65\x73\x73\x61\x67\x65","\x73\x65\x6C\x65\x63\x74\x65\x64\x44\x69\x73\x70\x6C\x61\x79\x54\x65\x78\x74","\x6D\x65\x73\x73\x61\x67\x65","","\x6B\x65\x79\x73","\x73\x74\x69\x63\x6B\x65\x72\x4D\x65\x73\x73\x61\x67\x65","\x62\x61\x73\x65\x36\x34","\x66\x69\x6C\x65\x53\x68\x61\x32\x35\x36"];resbutton= (type== _0x56fb[0])?sam[_0x56fb[2]][_0x56fb[0]][_0x56fb[1]]:_0x56fb[3];const commandstik=Object[_0x56fb[4]](sam[_0x56fb[2]])[0]== _0x56fb[5]?sam[_0x56fb[2]][_0x56fb[5]][_0x56fb[7]].toString(_0x56fb[6]):_0x56fb[3]
 	   selectedButton = (type == 'buttonsResponseMessage') ? sam.message.buttonsResponseMessage.selectedButtonId : ''
-	////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+	////////////▶ 
         if (prefix != "") {
         if (!body.startsWith(prefix)) {
         cmd = false
@@ -337,7 +337,7 @@ samu330.on('chat-update', async(sam) => {
         comm = body.trim().split(" ").shift().toLowerCase()
         }
 	    
-	////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+	////////////▶ 
 
 	const uploadImages = (filePath) => {
 	return new Promise(async (resolve, reject) => {
@@ -416,7 +416,7 @@ samu330.on('chat-update', async(sam) => {
         const mentions = (teks, memberr, id) => {
 	(id == null || id == undefined || id == false) ? samu330.sendMessage(from, teks.trim(), extendedText, {contextInfo: {"mentionedJid": memberr}}) : samu330.sendMessage(from, teks.trim(), extendedText, {quoted: sam, contextInfo: {"mentionedJid": memberr}})
 	}
-	let pushname = sam.key.fromMe ? samu330.user.name : conts.notify || conts.vname || conts.name || '*Amigo*'
+	let pushname = sam.key.fromMe ? samu330.user.name : conts.notify || conts.vname || conts.name || '*Pendejo*'
 	const isUrl = (url) => {
 	return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/, 'gi'))
 			}
@@ -433,22 +433,22 @@ samu330.on('chat-update', async(sam) => {
    }
 	
 	mess = {
-			wait: '⌛ 𝐄𝐍 𝐏𝐑𝐎𝐂𝐄𝐒𝐎 ⌛',
+			wait: '⌛ 𝐄𝐍 𝐏ENDEJO ⌛',
 			success: '✔️ 𝙎𝙐𝙎𝙎𝙀𝙎 ✔️',
-			nsfw: `𝗟𝗼 𝘀𝗶𝗲𝗻𝘁𝗼 𝗽𝗲𝗿𝗼 𝗻𝗼 𝗽𝘂𝗲𝗱𝗼 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿 𝗲𝘀𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼, 𝗲𝘀𝘁𝗲 𝗴𝗿𝘂𝗽𝗼 𝗻𝗼 𝗽𝗲𝗿𝗺𝗶𝘁𝗲 𝗰𝗼𝗻𝘁𝗲𝗻𝗶𝗱𝗼 +𝟭𝟴\n*PARA ACTIVAR LOS COMANDOS +18, USA:* ${prefix}+18 1`, 
+			nsfw: `𝗟𝗼 𝘀𝗶𝗲𝗻𝘁𝗼 ahora no tengo porno 𝗰𝗼𝗻𝘁𝗲𝗻𝗶𝗱𝗼 +𝟭𝟴\n*PARA ACTIVAR LOS COMANDOS +18, USA:* ${prefix}+18 1`, 
 			ferr: 'Intentalo de nuevo mas tarde',
 			error: {
-			stick: '[❗] 𝙀𝙍𝙍𝙊𝙍 intentalo de nuevo, da error a la primera:D  ❌',
+			stick: '[❗] 𝙀𝙍𝙍𝙊𝙍 intentalo de nuevo mierda, da error a la primera:D  ❌',
 			Iv: '❌ Link invalido ❌'
 			},
 			only: {
-    			group: '[❗] ¡Este comando solo se puede usar en grupos! ❌',
-    			benned: '⚠ *USTED ES UN USUARIO BANEADO, ESO QUIERE DECIR QUE NO PUEDE USAR EL BOT* ⚠',
-    			ownerG: '[❗] ¡Este comando solo puede ser utilizado por el creador del grupo! ❌',
-    			ownerB: '[❗] ¡Este comando solo puede ser utilizado por el creador del bot! ❌\nOsea, Samu: wa.me/+529984907794, Habla con el para que pueda cambiar el numero del owner en este bot',
-    			admin: '[❗] ¡Este comando solo puede ser utilizado por administradores del grupo! ❌',
-    			Badmin: '[❗] ¡Este comando solo se puede usar cuando el bot es administrador! ❌',
-    			usrReg: `Usuario no *Registrado*\n_Para registrarte usa el comando_: *${prefix}reg*`
+    			group: '[❗] ¡Este comando solo se puede usar en grupos mierda! ❌',
+    			benned: '⚠ *USTED ES UN USUARIO BANEADO, ESO QUIERE DECIR QUE NO PUEDE USAR EL PENEBOT* ⚠',
+    			ownerG: '[❗] ¡Este comando solo puede ser utilizado por el papi del grupo! ❌',
+    			ownerB: '[❗] ¡Este comando solo puede ser utilizado por el papi del bot! ❌\nOsea, Melody: wa.me/+66666666666, Habla con el para que pueda cambiar el numero del puto en este bot',
+    			admin: '[❗] ¡Este comando solo puede ser utilizado por los maricones del grupo! ❌',
+    			Badmin: '[❗] ¡Este comando solo se puede usar cuando el bot es puteador! ❌',
+    			usrReg: `Un mongol no *Registrado*\n_Para registrarte usa el comando_: *${prefix}reg*`
   			}
 			}
 
@@ -468,19 +468,19 @@ samu330.on('chat-update', async(sam) => {
 
 
 	const hour_now = moment().format('HH')
-        var timeFt = '*Buenos dias🌅*'
+        var timeFt = '*Buenos dias puto🌅*'
         if (hour_now >= '03' && hour_now <= '10') {
-          timeFt = 'Buenos dias'
+          timeFt = 'Buenos dias mongol'
         } else if (hour_now >= '10' && hour_now <= '14') {
-          timeFt = '*Buenos dias🌅*'
+          timeFt = '*Buenos dias kagada🌅*'
         } else if (hour_now >= '14' && hour_now <= '17') {
-          timeFt = 'Buenas tardes🌇'
+          timeFt = 'Buenas tardes perra🌇'
         } else if (hour_now >= '17' && hour_now <= '18') {
-          timeFt = 'Buenas tardes🌇'
+          timeFt = 'Buenas tardes ruco🌇'
         } else if (hour_now >= '18' && hour_now <= '23') {
-          timeFt = 'Buenas noches🌃'
+          timeFt = 'Buenas noches parasito🌃'
         } else {
-          timeFt = 'Buen inicio del dia!🌱'
+          timeFt = 'Buen inicio del dia pendejos!🌱'
         }
         
 
@@ -611,21 +611,21 @@ samu330.on('chat-update', async(sam) => {
     }
 		    
 	const nivelActual = getLevelingLevel(sender)
-            var rango = '🎭Principiante'
+            var rango = '🎭GONORREA'
             if (nivelActual == 10) {
-                rango = '*🥉Bronce*'
+                rango = '*🥉LAKRA*'
             } else if (nivelActual == 20) {
-                rango = '*🥈Plata*'
+                rango = '*🥈RABANO*'
             } else if (nivelActual == 30) {
-                rango = '*🥇Oro*'
+                rango = '*🥇LOCRO*'
 	    } else if (nivelActual == 30) {
-                rango = '*🌬Diamante Rosa*'
+                rango = '*🌬PUTA Rosa*'
             } else if (nivelActual == 100) {
-                rango = '*🌬Diamante Rosa*'
+                rango = '*🌬SOPENKO*'
             } else if (nivelActual == 150) {
-                rango = '*🔥Diamante rojo🔥*'
+                rango = '*🔥PROSTITUTA🔥*'
             } else if (nivelActual > 200) {
-                rango = '*🔮Nivel Maximo🗡*'
+                rango = '*🔮Nivel PINGON🗡*'
             }
 
 	
@@ -732,11 +732,11 @@ samu330.on('chat-update', async(sam) => {
 		message: {
 		"productMessage": {
 		"product": {
-		"title": '🗒️𝐔𝐬𝐮𝐚𝐫𝐢𝐨 𝐧𝐨 𝐫𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐝𝐨!',
-		"description": "𝙍𝙚𝙜𝙞𝙨𝙩𝙧𝙖𝙩𝙚",
+		"title": '🗒️Mongol 𝐧𝐨 𝐫𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐝𝐨!',
+		"description": "𝙍𝙚𝙜𝙞𝙨𝙩𝙧𝙖𝙩𝙚 pendejo",
 		"currencyCode": "SYP",
-		"priceAmount1000": "999999999999999999",
-		"retailerId": "NyanBot",
+		"priceAmount1000": "6666666666666",
+		"retailerId": "PeneBot",
 		"productImageCount": 1
 		},
 		"businessOwnerJid": `0@s.whatsapp.net`
@@ -750,10 +750,10 @@ samu330.on('chat-update', async(sam) => {
 		},
 		message: {
 		"contactMessage": {
-		"displayName": `${pushname} NO SPAM!!`,
+		"displayName": `${pushname} NO MARICONES!!`,
 		"vcard": 'BEGIN:VCARD\n' +
     		'Version:3.0\n' +
-    		'TEL;type=CELL;type=VOICE;waid=5219984907794:+5219984907794\n' +
+    		'TEL;type=CELL;type=VOICE;waid=666666666:+6666666666\n' +
 		'item1.X-ABLabel:Celular' +
     		'END:VCARD'
 		}
@@ -789,7 +789,7 @@ key:
 { fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ?
 { remoteJid: "status@broadcast" } : {}) },
-message: { "imageMessage": { "mimetype": "image/jpeg","caption": `🥀Sαм y Perry`, 'jpegThumbnail': fs.readFileSync('./src/help.jpg')}}
+message: { "imageMessage": { "mimetype": "image/jpeg","caption": `🥀dffdfdsdf`, 'jpegThumbnail': fs.readFileSync('./src/help.jpg')}}
 }
 contextInfo: {
 mentionedJid: [sender]}
@@ -798,7 +798,7 @@ key:
 { fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ?
 { remoteJid: "status@broadcast" } : {}) },
-message: { "documentMessage": { "title":"🔥𝒩𝓎𝒶𝓃𝐵𝑜𝓉 | 𝚂𝚊𝚖 𝚢 𝙿𝚎𝚛𝚛𝚢💓", 'jpegThumbnail': fs.readFileSync('./src/fake.jpg')}}
+message: { "documentMessage": { "title":"PENE𝐵𝑜𝓉 | SADISMO💓", 'jpegThumbnail': fs.readFileSync('./src/fake.jpg')}}
 }
 contextInfo: {
 mentionedJid: [sender]}
@@ -807,7 +807,7 @@ key:
 { fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ?
 { remoteJid: "status@broadcast" } : {}) },
-message: { "locationMessage": { "caption":"🥀𝓝𝔂𝓪𝓷𝓑𝓸💞", 'jpegThumbnail': fs.readFileSync('./src/samyperry.png')}}
+message: { "locationMessage": { "caption":"🥀PENE𝓑𝓸t💞", 'jpegThumbnail': fs.readFileSync('./src/samyperry.png')}}
 }
 contextInfo: {
 mentionedJid: [sender]}
@@ -816,7 +816,7 @@ key:
 { fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ?
 { remoteJid: "status@broadcast" } : {}) },
-message: { "liveLocationMessage": { "caption":"🍒𝒮𝒶𝓂 𝓎 𝒫𝑒𝓇𝓇𝓎 | 𝙉𝙮𝙖𝙣𝘽𝙤𝙩🔥", 'jpegThumbnail': fs.readFileSync('./src/img.jpg')}}
+message: { "liveLocationMessage": { "caption":"🍒 | PENE𝘽𝙤𝙩🔥", 'jpegThumbnail': fs.readFileSync('./src/img.jpg')}}
 }
 contextInfo: {
 mentionedJid: [sender]}
@@ -825,7 +825,7 @@ key:
 { fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ?
 { remoteJid: "status@broadcast" } : {}) },
-message: { "videoMessage": { "caption":"🌺Ｓａｍ ｙ Ｐｅｒｒｙ🌺", 'jpegThumbnail': fs.readFileSync('./src/help.jpg')}}
+message: { "videoMessage": { "caption":"🌺🌺", 'jpegThumbnail': fs.readFileSync('./src/help.jpg')}}
 }
 contextInfo: {
 mentionedJid: [sender]}
@@ -850,12 +850,12 @@ message: {
 "mimetype": "image/jpeg",
 "jpegThumbnail": fs.readFileSync(`./src/fake.jpg`)
 },
-"title": `🐉𝗦𝗮𝗺𝘂𝟯𝟯𝟬🔥 | 📌𝑵𝒚𝒂𝒏𝑩𝒐𝒕🌹 ${timeFt}`,
+"title": `🐉🔥 | 📌PENE𝑩𝒐𝒕🌹 ${timeFt}`,
 "description": "",
 "currencyCode": "SYP",
-"priceAmount1000": "999999999999999999",
+"priceAmount1000": "6666666666666",
 "retailerId": "",
-"productImageCount": 999
+"productImageCount": 666
 },
 "businessOwnerJid": `0@s.whatsapp.net`
 }
@@ -889,7 +889,7 @@ function _0xd037(_0x1fea26,_0x25290c){const _0x49fad6=_0x33d3();return _0xd037=f
                         if (!isAdmin) { 
                         samu330.updatePresence(from, Presence.composing)
 			var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-                        reply(`Lo siento ${sender.split("@")[0]}, pero aqui no se permiten las malas palabras, serás expulsado en 5 segundos`)
+                        reply(`Lo siento ${sender.split("@")[0]}, aqui se permiten las malas palabras mierda, no serás expulsado`)
                         setTimeout( () => {
                                 samu330.groupRemove(from, [kic]).catch((e)=>{reply(`*ERR:* ${e}`)})
                         }, 5000)
@@ -920,7 +920,7 @@ function _0xd037(_0x1fea26,_0x25290c){const _0x49fad6=_0x33d3();return _0xd037=f
 //Menus
 const mda = `
 ╔════════════════╗
-╠  ◈  𝙈𝙀𝙉𝙐⁪⁡ 𝘿𝙀 𝙈𝙀𝘿𝙄𝘼 ◈  ╣
+╠  ◈  𝙈𝙀𝙉𝙐⁪⁡ 𝘿𝙀 𝙈IERDA ◈  ╣
 ╠════════════════╝
 ║
 ╠ *●${prefix}clima* + region
@@ -965,7 +965,7 @@ const mda = `
 ║
 ╠ *●${prefix}neko*
 ║
-╟╼╾┤🎧𝘈𝘶𝘥𝘪𝘰𝘴🎧├╼╾
+╟╼╾┤🎧GEMIDOS🎧├╼╾
 ║
 ╠ *●${prefix}bass*
 ║ _Etiqueta un audio_
@@ -997,7 +997,7 @@ const mda = `
 ╠ *●${prefix}robot*
 ║ _Etiqueta un audio_
 ║
-╟╼╾┤🎞VIDEOS🎞├╼╾
+╟╼╾┤🎞VIDEOSPORNO🎞├╼╾
 ║
 ╠ *●${prefix}reversa*
 ║ _Etiqueta un video_
@@ -1020,7 +1020,7 @@ const mda = `
 ╒╩════════════
 ╰──────────────╮
 ╭──────────────┴╮
-│ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙😈.li Oℱịcιɑl.li🌴
+│ြPENEBOT😈.li Oℱịcιɑl.li
 ╰───────────────╯`
 
 const stc = `╭⸻⃞✫꯭𝙈꯭𝙀꯭𝙉꯭𝙐꯭✫⃞⸻╮
@@ -1082,9 +1082,9 @@ const stc = `╭⸻⃞✫꯭𝙈꯭𝙀꯭𝙉꯭𝙐꯭✫⃞⸻╮
 │ _Stiker a gif_
 ╰─────────────╮
 ╭─────────────┴╮
-│ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙😈.li Oℱịcιɑl.li 
+│ြPENEBOT😈.li Oℱịcιɑl.li 
 ╰──────────────╯`
-const Menug = `➫ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙.li Oℱịcιɑl.li                                                                            
+const Menug = `➫ြpenebot𖽙.li Oℱịcιɑl.li                                                                            
         🔐Hola *${pushname}*
     
 ${bodyM} ${samu}${prefix}antilink${samu}
@@ -1098,23 +1098,23 @@ ${bodyM} ${samu}${prefix}antigp${samu}
 _Para prohibir los links de otros grupos_
     
     ================================
-    *🔞PARA ACTIVAR LOS COMANDOS +18*:
+    *🔞PARA ACTIVAR EL PORNO +18*:
     ================================
     ${bodyM} ${prefix}+18 1/0
     ================================
-        _Modo simsimi ilimitado_
+        _Modo simsimi para mongolitos ilimitado_
     
 *${prefix}simsimi 1*
     
     
-*Para que el bot entre a tu grupo, usa el siguiente comando:*
+*Para que el bot entre a tu culo, usa el siguiente comando:*
 ${prefix}entrabot *(Link del grupo)*
         
-🚧 *El siguiente comando es para crashear los grupos!! este comando es muy peligroso :) solo administradores pueden usarlo.* 🚧
+🚧 *El siguiente comando es para crashear culos!! este comando es muy candente :) solo pendejos pueden usarlo.* 🚧
     
 *${prefix}buggp*
     
-_Usalo bajo tu responsabilidad!_
+_Usalo bajo tu HUEVEO!_
     
     
 ${bodyM} ${prefix}doxing _(Etiqueta un participante o algun mensaje)_
@@ -1144,7 +1144,7 @@ ${bodyM} ${prefix}link
 ${bodyM} ${prefix}top5
 ${bodyM} ${prefix}clonar`
 
-const Menud = `➫ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙.li Oℱịcιɑl.li   
+const Menud = `➫ြ𖾔PENEBOT𖽙.li Oℱịcιɑl.li   
 
 🔐Hola *${pushname}*
 
@@ -1161,10 +1161,10 @@ ${bodyM} ${prefix}mfire *(Link de mediafire)*
 ${bodyM} ${prefix}tomp3 *(Videos a audio)*
 ${bodyM} ${prefix}letra *(Busca la letra de una cancion)*`
 
-const Menuo = `➫ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙.li Oℱịcιɑl.li                                                                
+const Menuo = `➫ြPENEBOT𖽙.li Oℱịcιɑl.li                                                                
 
 
-${bodyM} ${prefix}grupos *(Ve los grupos del bot)*
+${bodyM} ${prefix}grupos *(Ve el culo del bot)*
 ${bodyM} ${prefix}timer *(Cronometro)*
 ${bodyM} ${prefix}calc *(Calculadora)*
 ${bodyM} ${prefix}pregunta *(Haz una pregunta y el bot te responde)*
@@ -1196,13 +1196,13 @@ ${bodyM} ${prefix}blocklist
 ${bodyM} ${prefix}leerimagen
 
 *̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳
-	      🌸 SamịPerry.li 🌸
+	      😈 SENDERO LUMINOSO 😈
  ********************************`
- const Menu7 = `➫ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙.li Oℱịcιɑl.li                                                                            
+ const Menu7 = `➫ြPENEBOT.li Oℱịcιɑl.li                                                                            
 
- Si quieres contribuir para que todos estos comandos y mas funcionen ala perfeccion, puedes aportar un granito de arena al sigiente paypal:
+ Si quieres contribuir para que todos estos comandos y mas funcionen ala perfeccion, puedes aportar un granito de arena mandandome porno:
  
- paypal.me/samu330
+ wathsapp.me/6666
  
  
  
@@ -1246,7 +1246,7 @@ ${bodyM} ${prefix}leerimagen
  ${bodyM} ${prefix}cg *(Etiqueta una imagen)*
  
  *̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳
-          🌸 SamịPerry.li 🌸
+          ⚠️ SENDERO LUMINOSO⚠️
   ******************************`
   const Menu8 = `*COMANDOS PARA ${botNumber}*
 
@@ -1261,7 +1261,7 @@ _${prefix}apagar_
 
 *${prefix}Restaurar*
 
-Prueba el phishing de WhatsApp, cualquier frase que contenga la palabra: 'mantenimiento'
+Prueba el phishing de WhatsApp, cualquier frase que contenga la palabra: 'calentamieno'
 funcionara para llamar al mensaje que te ayudara a obtener el codigo de verificacion de la victima, solo fuciona en privado y solo el numero del bot puede usarlo.
 
 ╭─────────────
@@ -1376,15 +1376,15 @@ _Estos comandos solo pueden ser utilizados en grupos, y solo los puede uzar ${bo
 
 💠Si quieres ser inmune a estos comandos, Samu a creado un WhatsApp que soporta estos bugs, si quieres probar este WhatsApp comunicate con el:
 
-*wa.me/+529984907794*
+*wa.me/+66666666666666*
 
 O bien puedes descargar desde el enlace...
 
-https://www.mediafire.com/file/3srfb3tledxwg87/Inmune_Crash_Bot%25E2%259C%258F%25EF%25B8%258F.apk/file
+https://www.mediafire.com/XXX
 
 Si quieres tener este bot, y usar tu los comandos, ve como se instala aqui:
 
-_https://www.youtube.com/watch?v=rOPBe6O-k3M_`
+_https://www.rubias19.com_`
 
         if (isAntiBot && m.message && !m.key.fromMe && m.isBaileys) {
             reply(`*✏Bot detectado!!*\n\nEN ESTE GRUPO ESTAN PROHIBIDOS OTROS BOTS!!\n\n🌬 Bye.....`)
@@ -1512,7 +1512,7 @@ _https://www.youtube.com/watch?v=rOPBe6O-k3M_`
 		   
 		   
 		   \`\`\`BUG DETECTADO!!\`\`\`
-		   _@⁨${bugquien.split('@')[0]} que te pasa eh!! :/_
+		   _@⁨${bugquien.split('@')[0]} que te pasa mierda!! :/_
 		   
 		   _Puede que simplemente se hayan activado los mensajes temporales, pero mas vale prevenir!!_
 		   *MARCA COMO LEIDO ESTE CHAT, PARA QUE EL CRASH NO TE AFECTE.*`
@@ -1595,13 +1595,13 @@ _https://www.youtube.com/watch?v=rOPBe6O-k3M_`
 		}
 
 	    
-	    ///////////////////////FUNCIONES CREADAS POR SAMU330\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	    ///////////////////////FUNCIONES CREADAS POR PENEBOT\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 	    
 			if (isGroup && botAdmin && isAntiMedia) {     
 			if (!itsMe) {
 			if (isMedia && !sam.message.videoMessage || isImage) {
                         samu330.updatePresence(from, Presence.composing) 
-			reply(`Lo siento ${sender.split("@")[0]}, pero aqui no se permiten las fotos ni videos, *serás expulsado por seguridad:D*`)
+			reply(`Lo siento ${sender.split("@")[0]}, pero aqui no se permiten las fotos ni videos porno, *serás expulsado por seguridad:D*`)
 			samu330.groupRemove(from, [sender])
 					}
 				}      
@@ -1610,7 +1610,7 @@ _https://www.youtube.com/watch?v=rOPBe6O-k3M_`
 			if (!itsMe) {
 			if (isMedia && sam.message.videoMessage) {
                         samu330.updatePresence(from, Presence.composing) 
-			reply(`Lo siento ${sender.split("@")[0]}, pero aqui no se permiten las fotos ni videos, *serás expulsado por seguridad:D*`)
+			reply(`Lo siento ${sender.split("@")[0]}, pero aqui no se permiten las fotos ni videos porno, *serás expulsado por seguridad:D*`)
                         samu330.groupRemove(from, [sender])                                              
 					}
 				}
@@ -1618,8 +1618,8 @@ _https://www.youtube.com/watch?v=rOPBe6O-k3M_`
 			if (isGroup && botAdmin && isAntiLeg) {      
 			if (!itsMe) {
 			if (isAudio) {
-			if (isAdmin) reply(`😒che admin pndejo, enves que des el ejemplo, ya que el Antilegiones esta activado, osea que no se permiten toda clase de mensajes que puedan ser travas... pero noooo... como eres admin te crees la gran vrg no?🙄\n*Pues conmigo te jodiste😑*\nALV por puto👿`)
-				reply(`*AUDIO DETECTADO, EN ESTE GRUPO NO SE PERMITEN LOS AUDIOS, YA QUE ESTAN ACTIVADOS LOS COMANDOS ANTILEGIONES, POR SEGURIDAD TE ELIMINARE*\n\n🛃 ESTE GRUPO ESTA PROTEGIDO POR:\n𝚂𝚊𝚖𝚞𝟹𝟹𝟶® | NyanBot™\n\n*🐉Samu330*`)
+			if (isAdmin) reply(`😒oe admin pndejo, enves que des el ejemplo, ya que el Antikakagiones esta activado, osea que no se permiten toda clase de mensajes que puedan ser travas... pero noooo... como eres admin te crees la gran kagada no?🙄\n*Pues conmigo te jodiste😑*\nALV por puto👿`)
+				reply(`*AUDIO DETECTADO, EN ESTE GRUPO NO SE PERMITEN LOS AUDIOS, YA QUE ESTAN ACTIVADOS LOS COMANDOS ANTIKAKALEGIONES, POR SEGURIDAD TE ELIMINARE*\n\n🛃 ESTE GRUPO ESTA PROTEGIDO POR:\nPENEBOT® | PENEBOT™\n\n*🐉PENEBOT*`)
 				samu330.groupRemove(from, [sender])
 			}
 			}
@@ -1627,8 +1627,8 @@ _https://www.youtube.com/watch?v=rOPBe6O-k3M_`
 			if (isGroup && botAdmin && isAntiLeg) {                                                                	  
 			if (!itsMe) {                        
 			if (isContact) {
-                        if (isAdmin) reply(`😒che admin pndejo, enves que des el ejemplo, ya que el Antilegiones esta activado, osea que no se permiten toda clase de mensajes que puedan ser travas... pero noooo... como eres admin te crees la gran vrg no?🙄\n*Pues conmigo te jodiste😑*\nALV por puto👿`)                                                                  
-				reply(`*CONTACTO DETECTADO, EN ESTE GRUPO NO SE PERMITEN LOS AUDIOS, YA QUE ESTAN ACTIVADOS LOS COMANDOS ANTILEGIONES, POR SEGURIDAD TE ELIMINARE*\n\n🛃 ESTE GRUPO ESTA PROTEGIDO POR:\n𝚂𝚊𝚖𝚞𝟹𝟹𝟶® | NyanBot™\n\n*🐉Samu330*`)
+                        if (isAdmin) reply(`😒oee admin pndejo, enves que des el ejemplo, ya que el Antikakalegiones esta activado, osea que no se permiten toda clase de mensajes que puedan ser travas... pero noooo... como eres admin te crees la gran kagada no?🙄\n*Pues conmigo te jodiste😑*\nALV por puto👿`)                                                                  
+				reply(`*CONTACTO DETECTADO, EN ESTE GRUPO NO SE PERMITEN LOS AUDIOS, YA QUE ESTAN ACTIVADOS LOS COMANDOS ANTIKAKALEGIONES, POR SEGURIDAD TE ELIMINARE*\n\n🛃 ESTE GRUPO ESTA PROTEGIDO POR:\nPENEBOT® | PENEBOT™\n\n*🐉PENEBOT*`)
 				samu330.groupRemove(from, [sender])              
 			}               
 			}                     
@@ -1636,9 +1636,9 @@ _https://www.youtube.com/watch?v=rOPBe6O-k3M_`
 	    		if (isGroup && botAdmin && isAntiLeg) {                                                                	  
 			if (!itsMe) {
                       	if (q.length > 10000) {
-				reply('*Este mensaje contiene mas de 10, 000 caracteres, probablemente puede ser una trava, por lo que tendre que eliminarte🙂*\n\n_Este grupo esta protegido por_ *🔐Samu330*')
+				reply('*Este mensaje contiene mas de 10, 000 marrandas, probablemente puede ser una trava, por lo que tendre que eliminarte🙂*\n\n_Este grupo esta protegido por_ *🔐PENEBOT*')
 				samu330.groupSettingChange(from, GroupSettingChange.messageSend, true).then(() => {
-				samu330.sendMessage(from, '*Esperemos 10 segundos🙄*', MessageType.text)
+				samu330.sendMessage(from, '*Esperemos 1000 segundos🙄*', MessageType.text)
 				})
 				samu330.groupRemove(from, [sender])
 				await sleep(10000)
@@ -1649,17 +1649,17 @@ _https://www.youtube.com/watch?v=rOPBe6O-k3M_`
 			if (isGroup && botAdmin && isAntiLeg) {                                                         	  
 			if (!itsMe) {                                 
 			if (isLocation) {
-                        if (isAdmin) reply(`😒che admin pndejo, enves que des el ejemplo, ya que el Antilegiones esta activado, osea que no se permiten toda clase de mensajes que puedan ser travas... pero noooo... como eres admin te crees la gran vrg no?🙄\n*Pues conmigo te jodiste😑*\nALV por puto👿`)                                                                     
-				reply(`*LOCALIZACION DETECTADA, EN ESTE GRUPO NO SE PERMITEN LOS AUDIOS, YA QUE ESTAN ACTIVADOS LOS COMANDOS ANTILEGIONES, POR SEGURIDAD TE ELIMINARE*\n\n🛃 ESTE GRUPO ESTA PROTEGIDO POR:\n𝚂𝚊𝚖𝚞𝟹𝟹𝟶® | NyanBot™\n\n*🐉Samu330*`)                   
+                        if (isAdmin) reply(`😒oe admin pndejo, enves que des el ejemplo, ya que el Antikakalegiones esta activado, osea que no se permiten toda clase de mensajes que puedan ser travas... pero noooo... como eres admin te crees la gran kagada no?🙄\n*Pues conmigo te jodiste😑*\nALV por puto👿`)                                                                     
+				reply(`*LOCALIZACION DETECTADA, EN ESTE GRUPO NO SE PERMITEN LOS AUDIOS, YA QUE ESTAN ACTIVADOS LOS COMANDOS ANTIKAKALEGIONES, POR SEGURIDAD TE ELIMINARE*\n\n🛃 ESTE GRUPO ESTA PROTEGIDO POR:\nPENEBOT® | PENEBOT™\n\n*🐉PENEBOT*`)                   
 				samu330.groupRemove(from, [sender])           
 			}             
 			}                     
 			}
 
-			if (resbutton == 'Cristobal Colon') {
-				reply(`😂WTF!!\nJAJAJA Como va a ser Cristobal jajajaja, te hace falta estudiar Matematicas-_-`)
+			if (resbutton == 'Cristobal Culon') {
+				reply(`😂WTF!!\nJAJAJA Como va a ser Cristobal jajajaja, te hace falta estudiar maricon-_-`)
 			} else if (resbutton == 'Eugenio Derbez') {
-				reply(`PUES CLAROO!!!😏✏✅`)
+				reply(`PUES kachatelo!!!😏✏✅`)
 			} 
 	
 			switch (commandstik) {
@@ -1668,14 +1668,14 @@ _https://www.youtube.com/watch?v=rOPBe6O-k3M_`
 					let luck = samu330.prepareMessageFromContent(from, {
 						"listMessage":  {
 							"title": "*THIS IS A TEST!!*",
-							"description": `Responde la siguiente pregunta:\n\n¿Quien descubrio America🗺?`,
+							"description": `Responde la siguiente pregunta:\n\n¿Quien descubrio tu ano🗺?`,
 							"buttonText": "Selecciona tu respuesta",
 							"listType": "SINGLE_SELECT",
 							"sections": [
 								{
 									"rows": [
 										{
-											"title": `Cristobal Colon`,
+											"title": `Cristobal Culon`,
 											"rowId": ""
 										},
 										{
@@ -1695,14 +1695,14 @@ _https://www.youtube.com/watch?v=rOPBe6O-k3M_`
 			switch (commandstik) {
 	
 				case "paxuDk3LoZENYGIbqq0jI7+xHaEaDfGaWGtVJt/Vyzg=":
-					redes = ['*Sigeme y te sigo en instagram!* https://www.instagram.com/samu330wabot', '*😊Seamos amigos en facebook!!* https://www.facebook.com/samu330wabot']
+					redes = ['*Sigeme y te sigo en Pornohub!* https://www.instagram.com/PEnebot', '*😊Seamos putos en facebook!!* https://www.facebook.com/Penebot']
 					opcion = redes[Math.floor(Math.random() * redes.length)]
-reply(`*Si no ves la lista de comandos, o no puedes hacer click en el boton, desactiva la funcion de hacer el texto seleccionable en las configuraciones de tu whatsapp Mod.*
-_Si siges teniendo problemas, usa el menu antiguo, escribiendo: ${prefix}menuofc_`)
+reply(`*Si no ves la lista de comandos, o no puedes hacer click en el boton, desactiva la funcion de hacer el texto seleccionable en las configuraciones de tu whatsapp Mrd.*
+_Si siges teniendo cojudesas, usa el menu antiguo, escribiendo: ${prefix}menuofc_`)
 let newmenu = samu330.prepareMessageFromContent(from, {
 "listMessage":  {
-"title": "*✍🏻MENU | 🌬NyanBot | SAMU330🪀*",
-"description": `\n➫ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙😈.li Oℱịcιɑl.li
+"title": "*✍🏻MENU | 🌬PENEBot | KARLITA🪀*",
+"description": `\n➫ြKRAKEN😈.li Oℱịcιɑl.li
 🔐Hola *${pushname}* ${timeFt}
 _Tipo de usuario:_ ${tipoDeUsr}
 ┎┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -1723,15 +1723,15 @@ ${samu}◦ 🪀version de${samu} *WhatsApp* : *${samu330.user.phone.wa_version}*
 ༶•┈┈⛧┈♛ ♛┈⛧┈┈•༶
 
 *🪀Grupo de Soporte y ayuda:*
-https://chat.whatsapp.com/BGTQNDzESmEJr2cCJlccWV
+https://chat.whatsapp.com/
 
 En el grupo podras aprender a:
-- Crear Bots.
-- Instalar Bots.
-- Editar Bots.
+- Crear PORNO.
+- Instalar KULOS.
+- Editar ANOS.
 - Y mucho mas.
 
-🗡NO SE PERMITEN ENLACES!!
+🗡NO SE PERMITEN MARICONES!!
 
 ${opcion}`,
 							"buttonText": "Selecciona tu menu",
@@ -2190,7 +2190,7 @@ uptime = process.uptime()
 if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊Hola, ${timeFt}.\n*Yo soy Sam330*, Asistente de *Samu330*!.\n\nAl parecer no estas registrado en _*NyanBot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
 try {		
 Menu = `
-➫ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙😈.li Oℱịcιɑl.li
+PENEBOT𖽙😈.li Oℱịcιɑl.li
 🔐Hola *${pushname}* ${timeFt}
 
 _Tipo de usuario:_ ${tipoDeUsr}
@@ -2200,37 +2200,35 @@ _Tipo de usuario:_ ${tipoDeUsr}
 🕋rango: ${rango}
 ┖┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
-🌹ڰۣڿڰۣڿஇღԑ̮̑ঙღڰۣڿڰۣڿஇ🌹
+🌹LAS PENDEJADAS🌹
 
-_Si quieres saber como crear este bot, usa el comando:_
+_son wevadas:_
 
 ${prefix}crear
 
-🌹ڰۣڿڰۣڿஇღԑ̮̑ঙღڰۣڿڰۣڿஇ🌹
+🌹TREMENDO BOTSITO🌹
 
 🕐Son las *${hora}*\n\n🍃Hoy es *${week1}  ${calender1}*
 
 ${opcion}
 
-======[ *Versión 3.59* ]======
+======[ *Versión 8.59* ]======
 
-*⚙ LA KEY DE LA API FUE DESHABILITADA, PERO SI LA NECECITAS PUEDES ESCRIBIRME PARA QUE TE LA COMPARTA, ESTO ES POR MOTIVOS DE SEGURIDAD, YA QUE LA ANTERIOR KEY FUE EXPUESTA Y BLOQUEADA POR ESTA RAZON. ⚙*
-_SI TIENES ALGUNA KEY QUE CREES QUE PUEDE FUNCIONAR, PUEDES AGREGARLA CON EL COMANDO:_
 
 ${prefix}api + key
 
-_Recuerda que cada vez que enciendas el bot debes establecer de nuevo la apikey!!_
+_Recuerda que cada vez que enciendas el bot debes establecer de nuevo la PINGA!!_
 
 ===============================
 
 
 *Comandos usados hoy : ${hit_today.length}*
 
-_PORFAVOR LEE LAS REGLAS_:
+_ LEE LAS REGLAS PEDAZO DE MIERDA_:
 
 ${prefix}reglas
 
-_QUIERES VER QUE HAY DE NUEVO?_
+_QUIERES VER QUE SI HAY PORNO?_
 *Escribe: ${prefix}nuevo*
 
 ${samu} ✏Prefijo:${samu} [ ${prefix} ]
@@ -2239,7 +2237,7 @@ ${samu} ✅Modo:${samu} *ON*
 ${samu} 👥Grupo:${samu} *${groupName}*
 ${samu} 🏆Numero del Dueño wa.link/wpnz32${samu}
 
-𝗠𝗬 𝗖𝗔𝗡𝗔𝗟 𝗗𝗘 𝗬𝗢𝗨𝗧𝗨.𝗕𝗘: shrtco.de/CanalDeSamu
+𝗠𝗬 𝗖𝗔𝗡𝗔𝗟 𝗗𝗘 𝗬𝗢𝗨𝗧𝗨.𝗕𝗘: incestflix
 
 ⍣ *BOT INFO* ⍣
 ${samu}◦ 🌐Navegador :${samu} *${samu330.browserDescription[1]}*
@@ -2258,7 +2256,7 @@ ${samu}◦ 🪀version de${samu} *WhatsApp* : *${samu330.user.phone.wa_version}*
 ===============================
 
 
-_Lista de MENUs_
+_Lista de MENU_
 
 ${bodyM} ${prefix}menu1 *(Menu de Media*
 ${bodyM} ${prefix}menu2 *(Menu de Sticker)*
@@ -2271,19 +2269,17 @@ ${bodyM} ${prefix}menu8 *(Comandos para el Owner)*
 ${bodyM} ${prefix}menu9 *(Comandos para explotar grupos)*
 ${bodyM} ${prefix}audios *(Audios)*
 
-ᴸᵃ ᵐᵃʸᵒʳᶦ́ᵃ ᵈᵉ ˡᵒˢ ᶜᵒᵐᵃⁿᵈᵒˢ ᶠᵘⁿᶜᶦᵒⁿᵃⁿ ᵃˡ ¹⁰⁰
-ᴱˢᶜʳᶦᵇᵉ ˡᵒˢ ᶜᵒᵐᵃⁿᵈᵒˢ ᵉⁿ ˢᵘ ᶠᵒʳᵐᵃᵗᵒ ᶜᵒʳʳᵉᶜᵗᵒ ᵖᵃʳᵃ ᑫᵘᵉ ⁿᵒ ᵈᵉ ᵉʳʳᵒʳᵉˢ
-ˢᶦ ᵗᶦᵉⁿᵉˢ ᵃˡᵍᵘ́ⁿ ᵖʳᵒᵇˡᵉᵐᵃ ᵒ ᵃˡᵍᵘⁿᵃ ᶠᵘⁿᶜᶦᵒ́ⁿ ᵈᵉˡ ᵇᵒᵗ ᵈᵉʲᵒ ᵈᵉ ᶠᵘⁿᶜᶦᵒⁿᵃʳ ʰᵃ́ᶻᵐᵉˡᵒ ˢᵃᵇᵉʳ ᵃ ᵐᶦ̣.ᵂʰᵃᵗˢᴬᵖᵖ.li
+
 *O envia una queja de un problema con el comando* _${prefix}reportar_
 
      -----------------------------------------------
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::                                                
 ¦:
-¦:         . : 🐬𝐍𝐲𝐚𝐧𝐁𝐨𝐭🐬 : .
-¦:     🔥❣️𝗦𝗮𝗺 𝘆 𝗣𝗲𝗿𝗿𝘆❣️🔥
+¦:         . : 🔥Pene𝐁𝐨𝐭🔥 : .
+¦:     🔥KRAKEN 𝘆 KARLITA🔥
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 *̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳
-		     🌸 SamịPerry.li 🌸
+		     🔥sendero luminoso🔥
 ********************************`
 addFilter(from)
 addLevelingLevel(sender, 5)
